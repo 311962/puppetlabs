@@ -1,0 +1,14 @@
+smtp:
+  address: localhost
+  port: 25
+  use_tls: false
+  ## Uncomment to enable SMTP authentication
+  #username:  smtp_username
+  #password:  smtp_password
+activation:
+  ## Configurable in days, 0 means infinite
+  freshness_period: 0
+password:
+  min_length: 8
+authentication:
+  console_hostname: ip-10-60-131-91.ec2.internal
